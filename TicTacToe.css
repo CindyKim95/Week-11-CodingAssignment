@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(167, 56, 56, 0.74);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 8%;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.tictactoeBox {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerX {
+    color: yellow;
+}
+
+
+.playerO {
+    color: rgb(0, 255, 255);
+}
+
+.resetButton {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: rgba(167, 56, 56, 0.74);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.announce {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.display {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
